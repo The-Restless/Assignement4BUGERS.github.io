@@ -1,0 +1,212 @@
+.body{
+    height: 100%;
+    margin: 0;
+    background-color: rgba(236, 207, 118, 1);
+}
+
+
+
+.firstboxes{
+    display:flex;
+    justify-content: center;
+
+}
+
+.box1 {
+    background-color: rgba(255, 172, 0, 1);
+    border: 2px solid #660708;
+    width: 30%;
+    height: auto;
+    margin-top: 50px;
+    margin-right: 40px;
+    transition: filter 1s;
+    border-radius: 20px;
+   
+
+
+}
+
+.box2 {
+    background-color: rgba(255, 172, 0, 1);
+    border: 2px solid #660708;
+    width: 30%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 40px;
+    transition: filter 1s;
+    border-radius: 20px;
+}
+
+.box1:hover {
+    filter: drop-shadow(0 0 0.75rem red);
+}
+
+.box2:hover {
+    filter: drop-shadow(0 0 0.75rem red);
+}
+
+
+.img1 {
+    background-image: url("images/burger.png");
+    background-size: 200% 100%;
+    background-position: center;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px; 
+    margin: 0 auto; 
+    margin-top: 25px; 
+    padding: 10px; 
+    position: relative; 
+ 
+} 
+ 
+.img2 { 
+    background-image: url("images/wrap.png");
+    background-size: 200% 100%;
+    background-position: center;
+    width: 80%;
+    height: 400px;
+    border-radius: 20px; 
+    margin: 0 auto; 
+    margin-top: 25px; 
+    padding: 10px; 
+    position: relative; 
+}
+
+.buy {
+ 
+    margin: 0 auto;
+    margin-top: 1px;
+    position: relative;
+    align-items: center; 
+    display: flex;
+
+
+}
+
+
+.buy a{
+    margin: 0 auto;
+    margin-top: 1px;
+    position: relative;
+    
+    width: 30%;
+
+    background-color: rgba(79, 255, 103, 1);
+
+    border: 2px orange solid;
+    border-radius: 25px;
+
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 20px;
+
+    color: white;
+    padding: 10px;
+
+
+}
+
+.disc{
+    text-align: center;
+  
+    color: white; 
+    font-size: 30px;
+}
+
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window {
+  position: relative;
+  background-color: rgba(246, 237, 193, 1);
+  text-align: center;
+  width:60%;
+  border-radius: 25px;
+  
+}
+
+.modal__close {
+  position: absolute;
+  top: -30px;
+  right: 0;
+}
+
+
+#modal:not(:target) {
+    visibility: hidden; 
+    opacity: 0;
+}
+
+#modal2:not(:target) {
+    visibility: hidden; 
+    opacity: 0;
+}
+
+.burgerimg {
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    position: relative;
+
+    width: 50%;
+    height:400px;
+    background-image: url("images/burgerpan.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.wrapimg {
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    position: relative;
+
+    width: 50%;
+    height:400px;
+    background-image: url("images/wrappan.png");
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.xbutton{
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.modal__window h2 {
+    padding:10px;
+    background-color: lightblue;
+} 
+
+.modal__window p {
+    margin: 0 auto;
+    margin-top: 1px;
+    position: relative;
+    width: 50%;
+    font-size: 20px;
+}
